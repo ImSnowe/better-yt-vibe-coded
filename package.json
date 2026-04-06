@@ -1,0 +1,16 @@
+{
+  "name": "electron-adfree-youtube",
+  "version": "1.0.0",
+  "description": "Ad-free YouTube experience using Electron",
+  "main": "src/main/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^33.0.0"
+  },
+  "dependencies": {
+    "hls.js": "^1.6.15",
+    "ytdlp-nodejs": "^3.4.4"
+  }
+}
